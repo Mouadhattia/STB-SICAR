@@ -12,7 +12,7 @@ function App() {
         {/* mainlayout visible by link */}
         <Route path="/mainlayout" element={<MainLayout />} />
 
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
 
         {/* footer visible by link */}
