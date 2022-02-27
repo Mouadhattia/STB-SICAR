@@ -1,11 +1,13 @@
 import "./App.css";
-<<<<<<< HEAD
+// <<<<<<< HEAD
 import Footer from "./Components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
+// import RespSocial from "./ResponsabiliteSocial/RespSocial";
 
 function App() {
   return (
     <div className="App">
+      {/* <RespSocial /> */}
       {" "}
       <Routes>
         {/* footer visible by link */}
@@ -13,14 +15,14 @@ function App() {
       </Routes>
     </div>
   );
-=======
-import NosFond from "./nosFonds/NosFond";
+// =======
+// import NosFond from "./nosFonds/NosFond";
 
-function App() {
-  return <div className="App">
-    <NosFond></NosFond>
-    </div>;
->>>>>>> df26c332d13cac0d2326790d1a3f10f3b79083b0
+// function App() {
+//   return <div className="App">
+//     <NosFond></NosFond>
+//     </div>;
+// >>>>>>> df26c332d13cac0d2326790d1a3f10f3b79083b0
 }
 
 export default App;
