@@ -6,7 +6,7 @@ function NavbarComponent() {
   return (
     <>
       <div className="navbar">
-        <Link className="nav-link" to="/acceuil">
+        <Link className="nav-link" to="/">
           <img
             className="nav-logo"
             src="/Logo STB SICAR.png"
@@ -14,7 +14,7 @@ function NavbarComponent() {
           />
         </Link>
         <div className="nav-items-container">
-          <Link className="nav-link" to="/acceuil">
+          <Link className="nav-link" to="/">
             <p className="nav-item">Présentation</p>
           </Link>
           <Link className="nav-link" to="/nos-fonds">
