@@ -53,7 +53,7 @@ function FooterComponent() {
           </div>
 
           <div className="footerCol">
-            <h4>Plus D'Info</h4>
+            <h4>Plus d'Info</h4>
             <ul className="unList">
               <Link className="FooterLink" to="/">
                 <li>Contact</li>
