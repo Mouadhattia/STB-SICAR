@@ -59,7 +59,7 @@ body {
   transition: all 0.3s ease;
 }
 .footerCol li:hover {
-  color: #04bbff;
+  color: #2770cb;
   padding-left: 8px;
 }
 .socialLink {
