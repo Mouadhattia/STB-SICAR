@@ -11,9 +11,9 @@ const NosFond = () => {
   return (
     <>
         <div className='nosFonds'>
-            <h1 className='nosFond-title-1'>NOS FONDS</h1>
+            <h1 className='big_title'>NOS FONDS</h1>
             <div className='nosFond-container-1'>
-                <h2 className='nosFond-title-2'>1-NOS INVESTISSEURS</h2>
+                <h2 className='title1'>1-NOS INVESTISSEURS</h2>
                 <p className='nosFond-parag-1'> STB SICAR dispose de fonds apportés par des investisseurs institutionnels de premier plan.</p>
                 <div className='image-nosFond-first'>
                     <img className='image-nosFond-first-1' src={nosFond_img1} alt=""/>
@@ -23,7 +23,7 @@ const NosFond = () => {
                 </div>
             </div>
             <div className='nosFond-container-2'>    
-                <h2 className='nosFond-title-2'>2-OPTIMISEZ VOTRE FISCALITE</h2>
+                <h2 className='title1'>2-OPTIMISEZ VOTRE FISCALITE</h2>
                 <p className='nosFond-parag-2'>Les investisseurs qui désirent optimiser leur fiscalité peuvent confier tout ou partie de leurs bénéfices imposables à la STB SICAR sous forme de fonds géré.</p>
                 <p className='nosFond-parag-2'> La règlementation en vigueur leur permet d’opter pour l’un des schémas suivants :</p>
                 <div className='image-nosFond-second'>
