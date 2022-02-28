@@ -5,39 +5,67 @@ import "./Home.css";
 const Home = () => {
   const team = [
     {
-      name: "foulan",
-      descreption: "bla bla blabla bla blabla bla bla",
-      img: "https://www.un.org/sites/un2.un.org/files/user.png",
+      name: "Mohamed Metoui",
+      descreption:
+        "Possèdant 29 ans d’expérience professionnelle, il a commencé sa carrière dans le secteur bancaire dans la BDET avant de rejoindre le groupe STB où il a notamment été Directeur des Crédits aux PME.",
+      img: "http://stbsicar.com.tn/assets/img/team/mohamedmetoui.jpg",
+      role: "Directeur General",
     },
     {
-      name: "foulan",
-      descreption: "bla bla blabla bla blabla bla bla",
-      img: "https://www.un.org/sites/un2.un.org/files/user.png",
+      name: "Hajer Hannachi",
+      descreption:
+        "Ayant 10 ans d’expérience dans le Private Equity et 3 ans dans un cabinet d’expertise comptable. Elle a suivi une formation de Maîtrise en sciences comptables à la Faculté des Sciences Economiques et de gestion de TUNIS « FSEGT ».",
+      img: "http://stbsicar.com.tn/assets/img/team/hajerhannachi.png",
+      role: "Auditrice Interne",
     },
     {
-      name: "foulan",
-      descreption: "bla bla blabla bla blabla bla bla",
-      img: "https://www.un.org/sites/un2.un.org/files/user.png",
+      name: "Ines Mlika",
+      descreption:
+        "Riche d’une expérience de plus de 16 ans, elle assure aujourd’hui la coordination entre les différents services administratifs, comptables, financier et contentieux .",
+      img: "http://stbsicar.com.tn/assets/img/team/inesmlika.jpg",
+      role: "Responsable back office",
     },
     {
-      name: "foulan",
-      descreption: "bla bla blabla bla blabla bla bla",
-      img: "https://www.un.org/sites/un2.un.org/files/user.png",
+      name: "Anis Mlika",
+      descreption:
+        "Titulaire d’une maitrise en Droit des Entreprises, a intégré la STB SICAR en 2002 en tant que Responsable du Contentieux en charge notamment du suivi et de l’application des procédures des dossiers en phase contentieuse.",
+      img: "http://stbsicar.com.tn/assets/img/team/anismlika.jpg",
+      role: "Responsable Contentieux",
     },
     {
-      name: "foulan",
-      descreption: "bla bla blabla bla blabla bla bla",
-      img: "https://www.un.org/sites/un2.un.org/files/user.png",
+      name: "Radhia Haddad",
+      descreption:
+        "Titulaire d’une maitrise en Gestion, a rejoint la STB SICAR en 2002 où elle a exercé en tant que chargée d’affaires avant d’assurer les fonctions de responsable ressources humaines.",
+      img: "http://stbsicar.com.tn/assets/img/team/radhiahaddad.jpg",
+      role: "Responsable RH",
     },
     {
-      name: "foulan",
-      descreption: "bla bla blabla bla blabla bla bla",
+      name: "Dorra Chouchane",
+      descreption:
+        "Elle possède une expérience de plus de 18 ans dans le private equity. Elle est titulaire d’un diplôme de maitrise en sciences de gestion et d’un mastère en techniques bancaires.",
       img: "https://www.un.org/sites/un2.un.org/files/user.png",
+      role: "Responsable Front Office",
     },
     {
-      name: "foulan",
-      descreption: "bla bla blabla bla blabla bla bla",
+      name: "Karim Aouadi",
+      descreption:
+        " Titulaire d’un diplôme de Maitrise en Méthode Quantitative Appliqué à l’Economie et à la Gestion et d’un diplôme d’études Supérieures de l’Institut Technique de Banque, il intervient depuis 16 ans dans le domaine du private equity et en charge notamment de la réalisation d’études financières et la mise en place optimale des participations de la STB SICAR.",
       img: "https://www.un.org/sites/un2.un.org/files/user.png",
+      role: "Responsable Etudes et Mise en place",
+    },
+    {
+      name: "Haifa Jebnoun",
+      descreption:
+        "Titulaire d’un diplôme en Marketing de l’ISG de Tunis, elle a rejoint la STB SICAR depuis 2001. Elle occupe actuellement le poste de Chargé Suivi Portofolio Management ayant comme principale mission l’élaboration de la politique de participation et de placement, la supervision de la gestion du portefeuille globale et le suivi des projets.",
+      img: "http://stbsicar.com.tn/assets/img/team/haifajebnoun.png",
+      role: "Responsable suivi du porte-feuille",
+    },
+    {
+      name: "Sana Ben Nejma",
+      descreption:
+        "Titulaire d’un diplôme de maitrise en Informatique Appliquée à la Gestion et d’un diplôme en Gestion d’Actifs, elle possède une expérience de plus de 6 ans dans le domaine du private equity et occupe actuellement le poste de Chargée Gestion des Sorties ayant comme principale mission le suivi et le recouvrement des sorties programmées du portefeuille participations.",
+      img: "http://stbsicar.com.tn/assets/img/team/sanabennejma.png",
+      role: "Responsable gestion des sorties",
     },
   ];
   const cles = [
@@ -187,7 +215,9 @@ const Home = () => {
               économique que social.
             </p>
           </div>
+            
           <div className="notre__equipe">
+           
             <Carousel
               itemPadding={[10, 50]}
               enableAutoPlay
@@ -198,12 +228,20 @@ const Home = () => {
               showArrows={false}
             >
               {team.map((user) => (
-                <div>
+                <div className="notre__equipe__item">
                   <div>
-                    <img src={user.img} alt="" />
-                    <h2>{user.name}</h2>
-                  </div>
-                  <h5>{user.descreption}</h5>
+                   
+
+                      <img src={user.img} alt="" />
+                      <h2>{user.name}</h2>
+                     
+                    </div>
+                    
+                    <h4> {user.role}</h4>
+                  
+                 
+
+                  <h5 className="">{user.descreption}</h5>
                 </div>
               ))}
             </Carousel>

@@ -7,6 +7,7 @@ import GoogleMapReact from 'google-map-react';
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
 import "./Contact.css";
 import MainLayout from "../../MainLayout/MainLayout";
+import HeaderBackground from "../../Components/HeaderBackground/HeaderBackground";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -26,6 +27,7 @@ const Contact = () => {
   return (
     <>
     <MainLayout>
+      <HeaderBackground/>
     <div className="contact">
       <div className="central-form">
         <div className="col">

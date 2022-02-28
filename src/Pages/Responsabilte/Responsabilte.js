@@ -1,4 +1,5 @@
 import React from "react";
+import HeaderBackground from "../../Components/HeaderBackground/HeaderBackground";
 import MainLayout from "../../MainLayout/MainLayout";
 import Contribution from "./Contribution";
 
@@ -64,6 +65,7 @@ const Responsabilte = () => {
   return (
     <>
     <MainLayout>
+      <HeaderBackground/>
     <div className="responsabilte">
       <div className="politique">
         <h4>Notre politique interne </h4>
