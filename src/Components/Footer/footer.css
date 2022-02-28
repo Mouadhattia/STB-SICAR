@@ -33,17 +33,14 @@ body {
 }
 .logo-description-container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
 }
-.footerDescripion {
-  color: #ffffff;
-  font-size: 14px;
-  font-family: "PT Sans", sans-serif;
-}
-.slogan {
-  font-family: "Praise", cursive;
-  font-family: "PT Sans", sans-serif;
-  font-size: 8px;
-  color: #ffffff;
+.footer-logo {
+  height: 90%;
 }
 .FooterLink {
   text-decoration: none;

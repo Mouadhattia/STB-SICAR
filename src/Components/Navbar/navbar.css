@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
-.nav-background {
-  min-height: 600px;
-  background: linear-gradient(to right, #003b57b2, #003b57b2),
-    url("/public/Empire.gif") no-repeat center fixed;
-  background-repeat: repeat;
-  background-size: cover;
-}
-.nav-cover-escription {
-  text-align: center;
-  color: #fff;
-  padding-top: 300px;
-}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -52,11 +41,17 @@
   font-size: 16px;
 }
 #contact-button {
-  border: 3px solid #0594d0;
+  border: 3px solid #04bcffbe;
   background-color: transparent;
   padding: 10px 30px;
 }
+#contact-button:hover {
+  background-color: #04bbff;
 
+  color: #fff;
+  cursor: pointer;
+  transition: all 1.1s ease;
+}
 .nav-item:hover {
   text-decoration: underline;
   text-decoration-color: #04bbff;
@@ -65,9 +60,11 @@
   text-underline-offset: 0.3em;
 }
 .nav-item-contact {
-  color: #fff;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
   color: #04bbff;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.nav-item-contact:hover {
+  color: #fff;
 }

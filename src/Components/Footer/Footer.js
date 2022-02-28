@@ -13,14 +13,11 @@ function FooterComponent() {
       <div className="footerContainer">
         <div className="row">
           <div className="footerCol logo-description-container">
-            <p className="footerDescripion">
-              Societe d'Investissement a Capital Risque Fondée en 1998. Filiale
-              du groupe STB. Spécialisée dans le private equity.
-            </p>
-            <br />
-            <small className="slogan">
-              <i>Partner of your success</i>
-            </small>
+            <img
+              className="footer-logo"
+              src="/footerlogo1.png"
+              alt="STB SICAR logo"
+            />
           </div>
           <div className="footerCol">
             <h4>Présentation</h4>

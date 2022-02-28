@@ -1,15 +1,26 @@
-.cles__container{
-    width: 100%;
-    height: 300px;
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.nav-background {
+  min-height: 600px;
+  background: linear-gradient(to right, #003b57b2, #003b57b2),
+    url("/public/Empire.gif") no-repeat center center fixed;
+  background-repeat: repeat;
+  background-size: cover;
 }
-.cle{
-    display: flex;
-    background-color: white;
+.nav-cover-escription {
+  text-align: center;
+  color: #fff;
+  padding-top: 300px;
+}
+.cles__container {
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cle {
+  display: flex;
+  background-color: white;
   padding: 30px;
   border-radius: 50px 50px 50px 50px;
   height: 130px;

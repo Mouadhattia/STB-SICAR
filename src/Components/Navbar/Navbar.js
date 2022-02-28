@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 
@@ -35,11 +35,11 @@ function NavbarComponent({ selected }) {
           <Link className="nav-link" to="/actualites">
             <p className="nav-item">Actualités</p>
           </Link>
-          <button id="contact-button">
-            <Link className="nav-link" to="/contact">
-              <p className="nav-item-contact">Contact</p>
-            </Link>
-          </button>
+          <Link className="nav-link " to="/contact">
+            <button id="contact-button" className="nav-item-contact">
+              Contact
+            </button>
+          </Link>
           <Link className="nav-link" to="/lexique">
             <p className="nav-item">Lexique</p>
           </Link>
