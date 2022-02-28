@@ -16,13 +16,13 @@ function NavbarComponent({ selected }) {
           <Link className="nav-link" to="/nos-fonds">
             <p className="nav-item">Nos Fonds</p>
           </Link>
-          <Link className="nav-link" to="/responsabilité-sociale">
+          <Link className="nav-link" to="/responsabilite">
             <p className="nav-item">Responsabilité Sociale</p>
           </Link>
-          <Link className="nav-link" to="/nos-réalisations">
+          <Link className="nav-link" to="/realisations">
             <p className="nav-item">Nos Réalisations</p>
           </Link>
-          <Link className="nav-link" to="/actualités">
+          <Link className="nav-link" to="/actualites">
             <p className="nav-item">Actualités</p>
           </Link>
           <Link className="nav-link" to="/contact">

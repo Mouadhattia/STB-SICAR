@@ -5,11 +5,13 @@ import nosFond_img3 from "./img/nosFond-img3.png"
 import nosFond_img4 from "./img/nosFond-img4.png"
 import image_nosFond_second1 from "./img/image-nosFond-second-1.png"
 import image_nosFond_second2 from "./img/image-nosFond-second-2.png"
+import MainLayout from '../../MainLayout/MainLayout'
 
 
 const NosFond = () => {
   return (
     <>
+    <MainLayout>
         <div className='nosFonds'>
             <h1 className='big_title'>NOS FONDS</h1>
             <div className='nosFond-container-1'>
@@ -58,6 +60,7 @@ const NosFond = () => {
                 </div>
             </div>
         </div>
+        </MainLayout>
     </>
   )
 }

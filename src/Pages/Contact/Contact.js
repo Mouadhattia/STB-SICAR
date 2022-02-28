@@ -6,6 +6,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import GoogleMapReact from 'google-map-react';
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
 import "./Contact.css";
+import MainLayout from "../../MainLayout/MainLayout";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -23,6 +24,8 @@ const Contact = () => {
     setMessage(e.target.value);
   };
   return (
+    <>
+    <MainLayout>
     <div className="contact">
       <div className="central-form">
         <div className="col">
@@ -90,6 +93,8 @@ const Contact = () => {
 
       </div>
     </div>
+    </MainLayout>
+    </>
   );
 };
 
