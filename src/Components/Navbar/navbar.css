@@ -1,13 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+.nav-backgroung {
+  min-height: 600px;
+  background: linear-gradient(to right, #0593d093, #003b5779),
+    url("/public/Empire.gif") no-repeat center fixed;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.nav-cover-escription {
+  text-align: center;
+  color: #fff;
+  padding-top: 300px;
+}
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
-  background-color: #ececfc;
+  align-items: top;
+  background-color: transparent;
   position: fixed;
   top: 0;
   width: 100%;
+  padding-top: 20px;
+  z-index: 1;
 }
 .nav-items-container {
   display: flex;
@@ -18,15 +32,14 @@
 .nav-logo {
   object-fit: contain;
   width: 60%;
-  height: 20%;
 }
 .nav-link {
   text-decoration: none;
 }
 
 .nav-item {
-  color: #091e6a;
-  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-family: "PT Sans", sans-serif;
   font-weight: 500;
 }
 .nav-item:hover {

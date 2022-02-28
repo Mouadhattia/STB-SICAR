@@ -2,16 +2,12 @@ import React from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 
-function NavbarComponent() {
+function NavbarComponent({ selected }) {
   return (
     <>
       <div className="navbar">
-        <Link className="nav-link" to="/">
-          <img
-            className="nav-logo"
-            src="/Logo STB SICAR.png"
-            alt="STB SICAR logo"
-          />
+        <Link className={selected === "HOME" && "active"} to="/">
+          <img className="nav-logo" src="/logo.png" alt="STB SICAR logo" />
         </Link>
         <div className="nav-items-container">
           <Link className="nav-link" to="/">

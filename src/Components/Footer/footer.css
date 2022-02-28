@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Praise&display=swap");
 body {
   line-height: 1.5;
-  font-family: "Lato", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 * {
@@ -10,32 +11,52 @@ body {
   box-sizing: border-box;
 }
 .Footer {
-  background-color: #ececfc;
+  background-color: #051c24;
   padding: 70px 0px 0px;
 }
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .footerContainer {
   max-width: 1170px;
+  display: flex;
   margin: auto;
+  flex-direction: column;
 }
 .unList {
   line-height: 26px;
+}
+.footerItem {
+  font-size: 12px;
+}
+.logo-description-container {
+  text-align: center;
+}
+.footerDescripion {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "PT Sans", sans-serif;
+}
+.slogan {
+  font-family: "Praise", cursive;
+  font-family: "PT Sans", sans-serif;
+  font-size: 8px;
+  color: #ffffff;
 }
 .FooterLink {
   text-decoration: none;
 }
 .footerCol {
-  width: 25%;
+  width: 20%;
   padding: 0px 12px;
 }
 .footerCol h4 {
   position: relative;
   font-weight: 400;
   font-size: 18px;
-  color: #051c24;
+  color: #04bbff;
   text-transform: capitalize;
   margin-bottom: 30px;
 }
@@ -44,7 +65,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #051c24;
+  background-color: aliceblue;
   height: 2px;
   box-sizing: border-box;
   width: 60px;
@@ -54,31 +75,32 @@ body {
 }
 
 .footerCol li {
-  color: #091e6a;
+  color: #ffffff;
   display: block;
   transition: all 0.3s ease;
 }
 .footerCol li:hover {
-  color: #2770cb;
-  padding-left: 8px;
+  color: #04bbff;
+  padding-left: 9px;
 }
 .socialLink {
   display: inline-block;
   height: 40px;
   width: 40px;
   padding-top: 6.5px;
-  background-color: #003c57;
+  background-color: transparent;
   margin: 0px 10px 0px 0px;
   text-align: center;
   line-height: 20px;
   border-radius: 50%;
-  color: #ffffff;
-  transition: all 1.3s ease;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  transition: all 1.1s ease;
 }
 .socialLink:hover {
-  color: #003c57;
-  background-color: #ffffff;
-  border: 1px solid #003c57;
+  color: #0594d0;
+  background-color: transparent;
+  border: 1px solid #0594d0;
 }
 .footerItems {
   font-weight: lighter;
@@ -99,6 +121,7 @@ body {
 .copyright {
   margin: auto;
   padding: 40px 0px 20px;
-  color: #051c24;
+  color: #ffffff;
+  font-size: 10px;
   text-align: center;
 }

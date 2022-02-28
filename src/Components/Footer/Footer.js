@@ -12,57 +12,49 @@ function FooterComponent() {
     <div className="Footer">
       <div className="footerContainer">
         <div className="row">
+          <div className="footerCol logo-description-container">
+            <p className="footerDescripion">
+              Societe d'Investissement a Capital Risque Fondée en 1998. Filiale
+              du groupe STB. Spécialisée dans le private equity.
+            </p>
+            <br />
+            <small className="slogan">
+              <i>Partner of your success</i>
+            </small>
+          </div>
           <div className="footerCol">
-            <h4>STB SICAR</h4>
+            <h4>Présentation</h4>
             <div>
               <ul className="unList">
                 <Link className="FooterLink" to="/">
-                  <li>Nous Connaître</li>
+                  <li className="footerItem">Nous Connaître</li>
                 </Link>
                 <Link className="FooterLink" to="/">
-                  <li>Nos Fonds</li>
-                </Link>
-
-                <Link className="FooterLink" to="/">
-                  <li>Responsabilité Sociale</li>
+                  <li className="footerItem">Nos Fonds</li>
                 </Link>
 
                 <Link className="FooterLink" to="/">
-                  <li>Nos Réalisations</li>
+                  <li className="footerItem">Responsabilité Sociale</li>
+                </Link>
+
+                <Link className="FooterLink" to="/">
+                  <li className="footerItem">Nos Réalisations</li>
                 </Link>
               </ul>
             </div>
           </div>
 
           <div className="footerCol">
-            <h4>Cadre Légal</h4>
+            <h4>Liens Utiles</h4>
             <ul className="unList">
-              <Link className="FooterLink" to="/">
-                <li>Types D'interventions</li>
+              <Link className="FooterLink" to="/contact">
+                <li className="footerItem">Contact</li>
               </Link>
               <Link className="FooterLink" to="/">
-                <li>Modes de Financement</li>
+                <li className="footerItem">Nos Partenaires</li>
               </Link>
               <Link className="FooterLink" to="/">
-                <li>Nos Valeurs</li>
-              </Link>
-              <Link className="FooterLink" to="/privacy-policy">
-                <li></li>
-              </Link>
-            </ul>
-          </div>
-
-          <div className="footerCol">
-            <h4>Plus d'Info</h4>
-            <ul className="unList">
-              <Link className="FooterLink" to="/">
-                <li>Contact</li>
-              </Link>
-              <Link className="FooterLink" to="/">
-                <li>Nos Partenaires</li>
-              </Link>
-              <Link className="FooterLink" to="/">
-                <li>Nos Publications</li>
+                <li className="footerItem">Nos Publications</li>
               </Link>
             </ul>
           </div>
@@ -86,10 +78,10 @@ function FooterComponent() {
               </Link>
             </div>
           </div>
-          <small className="copyright">
-            copyright STB SICAR © 2022 all rights reserved.
-          </small>
         </div>
+        <small className="copyright">
+          STB SICAR © 2022 All rights reserved.
+        </small>
       </div>
     </div>
   );
