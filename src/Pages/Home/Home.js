@@ -43,6 +43,16 @@ const Home = () => {
   return (
     <>
       <MainLayout selected="HOME">
+        <div className="nav-background">
+          <div className="nav-cover-escription">
+            <h1>Societé d'Investissement a Capital Risque</h1>
+            <p>
+              Fondée en 1998. Filiale du groupe STB. Spécialisée dans le private
+              equity.
+            </p>
+            <small>Partner of your success</small>
+          </div>
+        </div>
         <div className="home__container">
           <div className="a_propos_de_nous">
             <h1>à propos de nous :</h1>

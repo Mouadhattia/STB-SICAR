@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
-.nav-backgroung {
+.nav-background {
   min-height: 600px;
-  background: linear-gradient(to right, #0593d093, #003b5779),
+  background: linear-gradient(to right, #003b57b2, #003b57b2),
     url("/public/Empire.gif") no-repeat center fixed;
   background-repeat: repeat;
   background-size: cover;
@@ -15,33 +15,59 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: top;
+  align-items: center;
   background-color: transparent;
   position: fixed;
   top: 0;
   width: 100%;
+  max-height: 150px;
   padding-top: 20px;
   z-index: 1;
+}
+.navbar.active {
+  background-color: #051c24;
 }
 .nav-items-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 60%;
+  align-items: center;
+  width: 70%;
 }
+
 .nav-logo {
   object-fit: contain;
-  width: 60%;
+  width: 40%;
+  padding: 6px;
 }
 .nav-link {
   text-decoration: none;
+  background-color: inherit;
 }
 
 .nav-item {
   color: #fff;
   font-family: "PT Sans", sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
+#contact-button {
+  border: 3px solid #0594d0;
+  background-color: transparent;
+  padding: 10px 30px;
+}
+
 .nav-item:hover {
-  color: #2770cb;
+  text-decoration: underline;
+  text-decoration-color: #04bbff;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 0.3em;
+}
+.nav-item-contact {
+  color: #fff;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #04bbff;
 }
