@@ -1,0 +1,29 @@
+.actuallite h1 {
+  text-align: center;
+  color: #04bbff;
+  font-size: 40px;
+  margin-bottom: 7%;
+  margin-top: 1%;
+}
+.actuallite__buttons{
+  padding: 7%;
+  
+}
+.actuallite__buttons .priv{
+ margin-left: 1.5%;
+ border: none;
+ background-color: #04bbff;
+ height: 32px;
+ width: 50px;
+ border-radius: 0 6px 6px 0;
+ color: white;
+}
+.actuallite__buttons .next{
+  border: none;
+  background-color: #0069d9;
+  height: 32px;
+  width: 70px;
+  border-radius: 6px 0 0 6px;
+  color: white;
+  
+}

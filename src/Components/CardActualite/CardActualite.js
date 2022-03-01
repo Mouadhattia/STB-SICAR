@@ -1,16 +1,20 @@
 import React from "react";
+import "./CardActualite.css";
 
-const CardActualite = () => {
+const CardActualite = ({actualite}) => {
   return (
     <div className="card__container">
       <div className="card__img__container">
-        <img src="" alt="" />
+        <img src={actualite.img} alt="img" />
       </div>
       <div className="card__desc__container">
-        <h2>Titre Article</h2>
-        <p> Some quick example text to build on the card title and make up</p>
+        <div>
+          <h2>{actualite.title}</h2>
+          <p> {actualite.desc}</p>
+        </div>
         <button>
           Lire plus
+          
         </button>
       </div>
     </div>
