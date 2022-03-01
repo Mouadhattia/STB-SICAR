@@ -1,7 +1,49 @@
+.page-title {
+  color: #04bbff;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+h2 {
+  color: #0594d0;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+h3 {
+  position: relative;
+
+  color: #003c57;
+  width: 90%;
+  font-size: 25px;
+  margin: auto;
+}
+h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #003c57;
+  height: 2px;
+  box-sizing: border-box;
+  width: 8rem;
+}
+.home-main-subtitles {
+  color: #04bbff;
+  font-size: 20px;
+  width: 90%;
+  margin: auto;
+  padding: 20px 0px;
+}
+.page-description {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0px;
+}
 .nav-background {
   min-height: 600px;
-  background: linear-gradient(to right, #003b57b2, #003b57b2),
-    url("/public/Empire.gif") no-repeat center center fixed;
+  background: linear-gradient(to left, #003b576c, #051c24),
+    url("/public/Stock.gif") no-repeat center center fixed;
   background-repeat: repeat;
   background-size: cover;
 }
@@ -10,17 +52,21 @@
   color: #fff;
   padding-top: 300px;
 }
+
 .cles__container {
+  margin: 50px 0px;
   width: 100%;
-  height: 300px;
-  background-color: blue;
+  height: 280px;
+  background-color: #003c57;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .cle {
   display: flex;
-  background-color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
   padding: 30px;
   border-radius: 50px 50px 50px 50px;
   height: 130px;
@@ -30,75 +76,49 @@
   align-items: center;
   justify-content: center;
 }
-.notre__equipe{
-  padding: 80px 0 80px;
-  background-image:linear-gradient(to right, #1f2235, #003b57b2), url("./img/bg-1.jpg");
-  
-  background-position: center;
-  background-attachment: fixed;
-  opacity: 0.85;
-  
-  
- 
-}
-/* .notre__equipe::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.85;
-  background-color: #1f2235;
-} */
-.notre__equipe__item{
-  background-color: white;
+.one {
+  display: flex;
+  background-color: #04bbff;
+  border: 1px solid #04bbff;
+  color: white;
   padding: 30px;
-  border-radius: 50px 50px 50px 0px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
- 
-}
-.notre__equipe__item img{
-  height: 70px;
-  width: 70px;
-  border: 2px solid transparent;
-  border-color: black;
-  
-  border-radius: 50%;
- ;
-}
-.notre__equipe__item div {
-  display: flex;
+  border-radius: 50px 50px 50px 50px;
+  height: 130px;
+  width: 300px;
+  font-size: larger;
+  text-align: center;
   align-items: center;
+  justify-content: center;
 }
-.notre__equipe__item__info {
+.Image-investissement {
+  margin: 50px 0px;
+}
+.page-cards-interventions {
   display: flex;
- 
- 
- 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+  margin: 80px auto;
 }
-.notre__equipe__item div h2{
-  margin-left:20px ;
-  font-size: 18px;
+.customCard {
+  height: 300px;
+  margin: auto;
+  text-align: center;
 }
-.notre__equipe__item div h4{
-  
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 26px;
-  
+.customCardImage {
+  height: 300px;
 }
-.notre__equipe__item h5 {
-  font-size: 14px;
-  
-  font-weight: 400;
-  margin: 0;
-  
-  height: 70%;
+.esp-img {
+  width: 96%;
+  padding: 20px 0px 20px 54px;
+}
+.CardEspritContainer {
   display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 96%;
+  margin: auto;
+}
+.CustomCardEsprit {
+  width: 50%;
 }
