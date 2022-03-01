@@ -11,6 +11,7 @@ import "./Contact.css";
 import MainLayout from "../../MainLayout/MainLayout";
 import HeaderBackground from "../../Components/HeaderBackground/HeaderBackground";
 import { Link } from "react-router-dom";
+import LeafletMap from "../../Components/Leaflet/LeafletMap"
 
 const Contact = () => {
   
@@ -117,9 +118,13 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="map"></div>
+          <div className="map">
+          <LeafletMap />
+          </div>
         </div>
+        
       </MainLayout>
+      
     </>
   );
 };
