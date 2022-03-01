@@ -40,9 +40,6 @@ function NavbarComponent({ selected }) {
               Contact
             </button>
           </Link>
-          <Link className="nav-link" to="/lexique">
-            <p className="nav-item">Lexique</p>
-          </Link>
         </div>
       </div>
     </>
