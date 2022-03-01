@@ -122,3 +122,29 @@ h3::before {
 .CustomCardEsprit {
   width: 50%;
 }
+.notre__equipe{
+  padding: 80px 0 80px;
+  background-image:linear-gradient(to right, #1f2235, #003b57b2), url("./img/bg-1.jpg");
+  
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.85;
+  
+  
+ 
+}
+
+.notre__equipe__item{
+  background-color: white;
+  padding: 30px;
+  border-radius: 50px 50px 50px 0px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.notre__equipe__item img{
+  height: 70px;
+  width: 70px;
+  border: 2px solid transparent;
+  border-color: black;
