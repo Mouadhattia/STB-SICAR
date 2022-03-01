@@ -5,7 +5,6 @@
   margin-bottom: 20px;
 }
 .contact > div > h2 {
-  letter-spacing: 0.1rem;
   color: #04bbff;
   font-size: 34px;
   text-align: center;
@@ -22,7 +21,7 @@
   border-radius: 12px;
   margin: 0 auto;
   justify-content: space-between;
-  background-color: #003c57;
+  background-color: #051c24;
   align-items: center;
 }
 form button {
@@ -31,10 +30,10 @@ form button {
   outline: none;
   width: 900px;
   color: rgb(230, 227, 227);
-  border: 2px solid #04bbff;
+  border: 2px solid #003c57;
   font-size: 12px;
   border-radius: 19px;
-  background-color: #003c57;
+  background-color: #051c24;
   font-size: 18px;
   width: 160px;
   align-items: center;
@@ -98,5 +97,4 @@ textarea {
 .media__link {
   text-align: center;
   margin-bottom: 20px;
-  
 }
